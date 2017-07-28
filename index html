@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+	<title>U4 Komplettering</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="font/styles.css">
+	<style>
+	*{
+		box-sizing: border-box;
+	}
+	body {
+		background: #DDDDD5;
+		color: #000;
+		padding:0;
+		margin:0;
+		font-size: 20px;
+	    line-height: 1.6em;
+	    font-family: 'ACaslonPro-Regular';
+	}
+	p:last-child{
+		margin-bottom: 0;
+	}
+
+	a{
+		color: #000;
+		text-decoration: none;
+		display: inline-block;
+		transition-duration: .3s;
+		margin: 0 20px 0 0;
+	}
+	a:hover{
+		transform: scale(1.3) rotate(360deg);
+	}
+	.skolbild{
+		width: 240px;
+	}
+	.logga{
+		height: 100px;
+	    margin-bottom: 30px;
+	    margin-top: 60px;
+	}
+	.del {
+		overflow: hidden;
+	}
+	.del1 {
+		background: #FFE000 url(skyline.svg) no-repeat;
+		background-size: contain;
+		background-position-y: 250px;
+	}
+	.del1 nav{
+		float: right;
+	    margin-right: 60px;
+	    margin-top: 60px;
+	    font-size: 26px;
+	}
+	.del .innehall{
+	    width: 600px;
+	    margin: 40px auto;
+	    padding: 40px;
+	    background: rgba(255,255,255,.5);
+	}
+	.del .innehall2{
+		width: 1100px;
+		margin: 80px auto;
+		padding: 0;
+		overflow: hidden;
+		background: #fff;
+		border: solid 1px #c7c7c7;
+    	border-bottom-width: 3px;
+	}
+	.del .innehall2 .textram{
+	    padding: 60px;
+	    display: inline-block;
+	    width: 800px;
+	}
+	.del .innehall2 img{
+		float:left;
+	}
+	.del .innehall2.bildhoger img{
+		float:right;
+	}
+	.del1{
+		height: 655px;
+		padding: 60px
+	}
+	.del2{
+	    background: url(bild3.jpg) no-repeat bottom left;
+		background-size: cover;
+
+	}
+
+	.del4 {
+		    background: #DDDDD5;
+	}
+	.del5{
+		padding: 100px 0;
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+<div class="del del1">
+	<img src="logga.png" class="logga" alt="Linnéuniversitetet">
+	<nav>
+		<a href="#vaxjo">Växjö</a>
+		<a href="#kalmar">Kalmar</a>
+	</nav>	
+</div>
+
+<div class="del del2">
+	<div class="innehall">
+		<h2>Ett universitet där allt är möjligt.</h2>
+		<p>Linnéuniversitetet är ett av Sveriges nyaste
+		lärosäten och finns i Kalmar och Växjö. Här läser
+		ungefär 31.000 studenter vid 150
+		utbildningsprogram och 2.000 fristående kurser.
+		Forskningen håller hög kvalitet och har fått
+		genomslag nationellt som internationellt. Den
+		spänner över humaniora, samhällsvetenskap,
+		naturvetenskap och teknik, och innehåller en rad
+		väletablerade forskningsområden. Allt ifrån
+		arbetsmarknadspolitik, välfärdsfrågor och
+		entreprenörskap till biovetenskap, akvatisk ekologi
+		och trä och energiteknik.</p>
+
+		<audio controls>
+			<source src="lnu.mp3" type="audio/mpeg">
+		</audio>
+		<p>Linnéuniversitetet är ett ungt och nyfiket
+		universitet, inspirerade av Carl von Linnés anda.
+		Nyfikenhet, nytänkande, nytta och närhet – så
+		tolkar vi Linnés gärningar och så vill vi bedriva
+		vår verksamhet. Vi vill vara ett modernt
+		universitet med Småland som bas och världen
+		som spelplats.</p>
+		<p>Linnéuniversitetet bildades 2010 genom en
+		sammanslagning av Högskolan i Kalmar och
+		Växjö universitet.</p>	
+	</div>
+</div>
+
+<div id="vaxjo" class="del del3">
+	<div class="innehall2">
+		<img class="skolbild" src="bild1.jpg" alt="växjö bild">
+		<div class="textram">
+			<h2>Växjö</h2>
+			<p>Expansiva Växjö - Staden som
+			växer, mitt i Småland.</p>
+			<p>Som student i Växjö har du nära till
+			allt - staden, skogen och sjöarna.
+			Promenadstråket från campus runt
+			Växjösjön når nästan ända in till
+			centrum och är perfekt för löpning
+			och promenader.</p>
+		</div>
+	</div>
+</div>
+
+<div id="kalmar" class="del del4">
+	<div class="innehall2 bildhoger">
+		<img class="skolbild" src="bild2.jpg" alt="kalmar bild">
+		<div class="textram">
+			<h2>Kalmar</h2>
+			<p>Alla tiders Kalmar - den lilla
+			Småländska staden vid havet.</p>
+			<p>Kalmar är en vacker stad med
+			gamla anor, många mysiga kvarter
+			och stor personlig charm. Området
+			runt Kalmar Slott och Stadsparken
+			är många studenters favorit.</p>
+		</div>
+		
+	</div>
+	
+</div>
+
+
+<div class="del del5">
+<p>Copyright Tobias Berggren 2017 &copy;</p>
+	
+</div>
+
+
+
+
+
+
+</body>
+</html>
